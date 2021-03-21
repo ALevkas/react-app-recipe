@@ -1,6 +1,6 @@
 {
-  "name": "react-app-recipes",
-  "homepage": "https://allevchenko.ru/react-app-recipes",
+  "name": "react-app-recipe",
+  "homepage": "https://allevchenko.ru/react-app-recipe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -7,7 +7,7 @@ import { Main } from './Components/Layout/Main';
 function App() {
     return (
         <>
-            <Router basename='react-app-recipes'>
+            <Router basename='react-app-recipe'>
                 <Header />
                 <Main />
                 <Footer />

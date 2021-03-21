@@ -2,7 +2,7 @@ export const Footer = () => {
     return (
         <footer className='page-footer green lighten-2'>
             <div className='footer-copyright'>
-                <div className='container'>
+                <div className='container container-footer'>
                     © {new Date().getFullYear} Aleksandr Levchenko and @Levkas
                     my profile in github.com
                     <a

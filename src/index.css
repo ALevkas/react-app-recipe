@@ -46,8 +46,20 @@ iframe {
     height: 350px;
 }
 
-.btn-search {
-    position: absolute;
-    top: 0;
-    right: 0;
+.search {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    grid-gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .brand-logo {
+        font-size: 1rem !important;
+    }
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
 }

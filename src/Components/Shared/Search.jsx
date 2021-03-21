@@ -15,15 +15,16 @@ export const Search = ({ cb }) => {
 
     return (
         <div className='row'>
-            <div className='input-field col s12'>
+            <div className='input-field search'>
                 <input
-                    type='search'
+                    type='text'
                     id='search-field'
-                    placeholder='search'
+                    placeholder='Input name category'
                     onKeyDown={handleKey}
                     onChange={(e) => setValue(e.target.value)}
                     value={value}
                 />
+
                 <button className='btn btn-search' onClick={handleSubmit}>
                     Search
                 </button>
